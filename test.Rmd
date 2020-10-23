@@ -1,8 +1,21 @@
+---
+title: "Lab 02 - Take a sad plot and make it better"
+author: "INSERT TEAM NAME HERE"
+date: "`r Sys.Date()`"
+output: github_document
+---
+
+
+
 ```{r}
 library(tidyverse)
 ```
 
 ```{r}
+achieve <- read_csv("data/StudentsPerformance.csv")
+```
 
+```{r}
+dim (achieve)
 ```
 
